@@ -5,8 +5,9 @@ Set-up:
 ``` bash
 git clone https://github.com/brandur/pagination-template
 gem install foreman
+cd pagination-template
 bundle install
-foreman run
+foreman start
 ```
 
 To edit the application being run:
