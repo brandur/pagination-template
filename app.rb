@@ -23,7 +23,7 @@ require "sinatra"
 #
 # Connect to a database using Sequel:
 #
-#   DB = Sequel.connect(ENV["DATBASE_URL"])
+#   DB = Sequel.connect(ENV["DATABASE_URL"])
 #   DB[:items].limit(5).all
 #
 
